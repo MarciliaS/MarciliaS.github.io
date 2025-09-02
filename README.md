@@ -24,10 +24,10 @@ Simple animations and sounds for engagement.
 
 Technologies Applied
 
-HTML5 → structure of the flashcard interface.
+HTML5: structure of the flashcard interface.
 
-CSS3 → kid-friendly styling, colorful and accessible design.
+CSS3: kid-friendly styling, colorful and accessible design.
 
-JavaScript (Vanilla JS / ES6) → game logic (flipping cards, tracking scores, randomization).
+JavaScript (Vanilla JS / ES6): game logic (flipping cards, tracking scores, randomization).
 
-Canvas or SVG (optional) → interactive visuals or drawing features.
+Canvas or SVG (optional): interactive visuals or drawing features.
