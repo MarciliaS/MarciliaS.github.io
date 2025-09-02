@@ -1,4 +1,5 @@
 Portuguese Flashcard Game for Kids
+
 Project Overview
 
 This project is an interactive flashcard game designed to help kids learn Portuguese vocabulary in a fun and engaging way. The game presents visual flashcards with images and words, allowing children to practice recognition, pronunciation, and memory skills.
