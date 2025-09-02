@@ -50,6 +50,6 @@ HTML5: structure of the flashcard interface.
 
 CSS3: kid-friendly styling, colorful and accessible design.
 
-JavaScript (Vanilla JS / ES6): game logic (flipping cards, tracking scores, randomization).
+JavaScript (Vanilla JS): game logic (flipping cards, tracking scores, randomization).
 
-Canvas or SVG (optional): interactive visuals or drawing features.
+
