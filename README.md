@@ -6,13 +6,33 @@ This project is an interactive flashcard game designed to help kids learn Portug
 The goal is to create an accessible and playful learning environment that supports language acquisition through repetition and gamification.
 
 
-Primary Users:
+Target Users
 
-Children between the ages of 5–12 who are beginning to learn Portuguese.
+Children (ages 5–12)
 
-Secondary Users:
+Looking for a fun, easy way to learn new Portuguese words.
 
-Parents and teachers who want a tool to help children practice vocabulary.
+Need colorful visuals, simple interactions, and engaging feedback.
+
+Parents
+
+Looking for safe, educational activities for their kids.
+
+Teachers / Educators
+
+Looking for a classroom-friendly tool to reinforce Portuguese lessons.
+
+
+User Stories
+
+As a child, I want to see pictures with Portuguese words, so that I can connect images with vocabulary.
+
+As a parent, I want my child to have fun while playing, so that learning feels like a game.
+
+As a teacher, I want to group words into categories, so that I can align the game with lesson plans.
+
+As a parent, I want the game to be simple to start, so that my child can play independently.
+
 
 Features
 
@@ -21,6 +41,7 @@ Flashcards with pictures and Portuguese words.
 Categories (e.g., colors, animals, food, numbers).
 
 Simple animations and sounds for engagement.
+
 
 Technologies Applied
 
