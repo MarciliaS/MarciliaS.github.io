@@ -1,0 +1,51 @@
+@import url('https://fonts.cdnfonts.com/css/grilledcheese-btn');
+body {
+    background-color: #009b9b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    border: 1px solid black;
+    display: flex;
+    gap: 40px; 
+    align-items: flex-start;
+}
+.title {
+    border: 1px solid black;
+    font-family: 'GrilledCheese BTN', sans-serif;
+}
+.btn {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 14px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #1c1c4d;
+    text-transform: uppercase;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+
+.btn-about {
+    background-color: #ff5c5c;
+    margin-top: 50px; 
+}
+
+.btn-start {
+    background-color: #ffe066;
+}
+
+.btn-how {
+    background-color: #69c9d0;
+    margin-top: 50px; 
+}
