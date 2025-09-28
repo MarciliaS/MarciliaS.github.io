@@ -1,0 +1,95 @@
+{"fruits": [
+    {
+        "image": "../assets/chili.png",
+        "english": "chili",
+        "portuguese":"pimenta"
+    },
+    {
+        "image": "../assets/grapes.png",
+        "english": "grapes",
+        "portuguese":"uva"
+    },
+    {
+        "image": "../assets/lemon.png",
+        "english": "lemon",
+        "portuguese":"limão"
+    },
+    {
+        "image": "../assets/orange.png",
+        "english": "orange",
+        "portuguese":"laranja"
+    },
+    {
+        "image": "../assets/pineapple.png",
+        "english": "pineapple",
+        "portuguese":"abacaxi"
+    },
+    {
+        "image": "../assets/strawberry.png",
+        "english": "strawberry",
+        "portuguese":"morango"
+    },
+    {
+        "image": "../assets/tomato.png",
+        "english": "tomato",
+        "portuguese":"tomate"
+    },
+    {
+        "image": "../assets/watermelon.png",
+        "english": "watermelon",
+        "portuguese":"melancia"
+    },
+    {
+        "image": "../assets/cherries.png",
+        "english": "cherries",
+        "portuguese":"cereja"
+    }
+],
+"animals":[
+    {
+        "image": "../assets/bee.png",
+        "english": "bee",
+        "portuguese":"abelha"
+    },
+    {
+        "image": "../assets/hen.png",
+        "english": "hen",
+        "portuguese":"galinha"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    },
+    {
+        "image": "../assets/black-cat-salem.gif",
+        "english": "🚧",
+        "portuguese":"🚧"
+    }
+]
+}

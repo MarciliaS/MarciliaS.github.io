@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flashcard.css">
+</head>
+<body>
+    <h1>Cards</h1>
+    <label for="myDropdown">Choose an option:</label>
+        <select id="myDropdown" name="selectedOption">
+            <option value="none">Choose a option</option>
+            <option value="fruits">Fruits</option>
+            <option value="animals">Animals</option>
+        </select>
+    <div class="actions">
+        <button onclick="restart()" class="btn btn-about">Shuffle</button>
+        <a href="./index.html">
+            <button class="btn btn-about">Home</button>
+        </a>
+    </div>
+    <br>
+    
+    <div class="grid-container">
+        <div>          
+        </div>
+    </div>
+    <script src="./flashcard.js"></script>
+</body>
+</html>
