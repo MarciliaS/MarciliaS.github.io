@@ -30,13 +30,11 @@ body {
     text-shadow: 
       4px 4px 0px #2e0c57,   
       6px 6px 0px #000;
-  /* position: absolute; */
   padding: 0;
 }
 
 .btn {
     font-family: "Press Start 2P", system-ui;
-    /* font-style: normal; */
     text-decoration: none;
     color: #000;
     font-size: 14px;
