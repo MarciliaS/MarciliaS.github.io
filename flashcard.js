@@ -17,21 +17,32 @@ fetch("../data/cards.json")
     console.log('Error fetching or parsing JSON:', error);
   });
 
+function shuffleArray(arr) {
+  let currentIndex = arr.length;
+
+  while (currentIndex !== 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [arr[currentIndex], arr[randomIndex]] = [arr[randomIndex], arr[currentIndex]]
+  }
+  return arr
+}
 
 const dropdown = document.getElementById("myDropdown");
 let value;
 dropdown.addEventListener("change", () => {
    value = dropdown.value;
-   generateCards();
+   generateCards(cards[value]);
 })
 
 
 
-function generateCards() {
+function generateCards(list) {
     gridContainer.innerHTML = ""; 
 
     
-        for(const card of cards[value]) {
+        for(const card of list) {
                 
         const cardElement = document.createElement('div');
         cardElement.classList.add("card");
@@ -56,3 +67,9 @@ function generateCards() {
     
 };
 
+function suffle() {
+  const copy = [...cards[value]];
+
+  shuffleArray(copy);
+  generateCards(copy);
+}
