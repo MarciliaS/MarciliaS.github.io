@@ -67,9 +67,19 @@ function generateCards(list) {
     
 };
 
-function suffle() {
-  const copy = [...cards[value]];
+function suffle(){
+  
+  
+  if(cards[value] === undefined) {
+    alert("Oops! You need to load the cards first.");
+    return;
+  }
+  
 
+  const copy = [...cards[value]];
+  
+  
   shuffleArray(copy);
   generateCards(copy);
 }
+
