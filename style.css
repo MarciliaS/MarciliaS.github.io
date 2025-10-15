@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
 
-/* html{
+html{
   height: 100%;
-} */
+}
 body {
     /* background-color: #009b9b; */
     background-image: url('./atividade\ 22.pptx.png');
@@ -13,7 +13,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100svh;
+    height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ body {
 .note {
   color: #333;
   position: relative;
-  width: 600px;
+  width: 70vw;
   margin: 0 auto;
   padding: 20px;
   font-family: "VT323", monospace;
@@ -160,14 +160,14 @@ body {
   background: url("./wooden-board-pixel-art-design-free-vector-removebg-preview.png") no-repeat center/contain;
   position: fixed;
   right: 10%;
-  bottom: 0;
+  top: 85%;
 }
 
 h3, h4, p {
   margin: 0;
   font-size: 1em;
 }
-/* ===== media queries for small screens ===== */
+
 @media (max-width: 768px) {
   .title{
     font-size: 2.5rem;
@@ -231,7 +231,7 @@ h3, h4, p {
   width: 30vw;
   position: fixed;
   right: 70%;
-  top: 70%;
+  top: 75%;
 }
 
 h3, h4, p {
