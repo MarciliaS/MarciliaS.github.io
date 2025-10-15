@@ -75,20 +75,20 @@ body {
 
 /* ABOUT PAGE */
 .quote-container {
-  margin-top: 50px;
+  margin-top: 30px;
   position: relative;
 }
  
 .note {
   color: #333;
   position: relative;
-  width: 50vw;
+  width: 60vw;
   margin: 0 auto;
   padding: 20px;
   font-family: "VT323", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 2em;
   /* box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.279); */
   box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.279), 4px 4px 0px #1c1c4d;
 }
@@ -160,7 +160,7 @@ body {
   bottom: 0;
 }
 
-h3, h3, p {
+h3, h4, p {
   margin: 0;
   font-size: 1em;
 }
@@ -190,7 +190,6 @@ h3, h3, p {
     padding: 15px 20px;
 }
 
-
 .btn-about {
     order: 2;
     margin: 0;
@@ -202,6 +201,15 @@ h3, h3, p {
     padding: 20px 20px;
 }
 
+h3, h4, p {
+  font-size: 0.5em;
+}
+ .back_sign {
+  width: 30vw;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+}
 }
 
 
@@ -215,4 +223,17 @@ h3, h3, p {
     align-items: center;
     margin-bottom: 5px;
   }
+
+  .back_sign {
+  width: 30vw;
+  position: absolute;
+  left: 70%;
+  top: 70%;
+}
+
+h3, h4, p {
+  margin: 0;
+  font-size: 0.5em;
+}
+
 }
