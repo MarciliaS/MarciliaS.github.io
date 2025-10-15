@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
 
+/* html{
+  height: 100%;
+} */
 body {
     /* background-color: #009b9b; */
     background-image: url('./atividade\ 22.pptx.png');
@@ -10,7 +13,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 100svh;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +85,7 @@ body {
 .note {
   color: #333;
   position: relative;
-  width: 60vw;
+  width: 600px;
   margin: 0 auto;
   padding: 20px;
   font-family: "VT323", monospace;
@@ -164,7 +167,7 @@ h3, h4, p {
   margin: 0;
   font-size: 1em;
 }
-
+/* ===== media queries for small screens ===== */
 @media (max-width: 768px) {
   .title{
     font-size: 2.5rem;
@@ -206,8 +209,8 @@ h3, h4, p {
 }
  .back_sign {
   width: 30vw;
-  position: absolute;
-  left: 50%;
+  position: fixed;
+  right: 70%;
   top: 75%;
 }
 }
@@ -226,8 +229,8 @@ h3, h4, p {
 
   .back_sign {
   width: 30vw;
-  position: absolute;
-  left: 70%;
+  position: fixed;
+  right: 70%;
   top: 70%;
 }
 
