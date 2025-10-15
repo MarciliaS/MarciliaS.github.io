@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.cdnfonts.com/css/grilledcheese-btn');
 
 body{
     background-image: url('./atividade\ 22.pptx.png');
@@ -14,9 +15,15 @@ body{
 }
 
 h1{
-    text-align: center;
-    font-weight: 700;
-    font-size: 50px;
+    font-size: 6rem;
+    font-family: 'GrilledCheese BTN', sans-serif;
+    color: #c4d16f; 
+    text-shadow: 
+      4px 4px 0px #2e0c57,   
+      6px 6px 0px #000;
+    padding: 0;
+    /* border: 1px solid; */
+    margin-bottom: 0;
 }
 
 p{
@@ -24,11 +31,10 @@ p{
     font-size: 30px;
     font-weight: bold;
 }
-
 .actions{
     display: flex;
-    justify-content: center;
     gap: 10px;
+    margin-top: 10px;
 }
 .btn {
     font-family: "Press Start 2P", system-ui;
@@ -47,18 +53,16 @@ p{
     transform: translateY(-3px);
 }
 
-
 .btn-about {
     background-color: #ffe066;
-    margin-top: 100px; 
+    /* margin-top: 20px;  */
 }
 
 .grid-container {
     display: grid;
     justify-content: center;
-    grid-gap: 16px;
+    grid-gap: 8px;
     grid-template-columns: repeat(6, 140px);
-    grid-template-rows: repeat(2, calc(140px / 2 *3));
 }
 
 .card{
@@ -72,8 +76,8 @@ p{
     border: 2px solid #000;            /* heavy black border */
     box-shadow: 4px 4px 0 #00000055; 
 }
-
-/* .card:hover {
+/* 
+.card:hover {
   border: 1px solid #777;
 } */
 
@@ -131,5 +135,89 @@ p{
 .card .front {
   transform: rotateY(180deg);
 }
+/* dropdown */
+
+#myDropdown{
+    font-family: "Press Start 2P", system-ui;
+    width: 15rem;
+    font-size: 12px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ===== flashcards for smaller screens ===== */
+
+/* Tablets (below 1024px) */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 120px);
+    gap: 10px; /* tighter gap */
+  }
+
+  .card {
+    width: 120px;
+    height: calc(120px / 2 * 3);
+    margin: 0;
+  }
+}
+
+/* Medium screens (below 768px) */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 95px);
+    gap: 6px; /* even tighter */
+    /* border: 1px solid rebeccapurple; */
+    margin: 0;
+  }
+
+  .card {
+    width: 95px;
+    height: calc(95px / 2 * 3);
+  }
+
+  .front_name {
+    font-size: 13px;
+  }
+
+  .back_name {
+    font-size: 12px;
+  }
+
+  .back-image {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Small phones (below 480px) */
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 75px);
+    gap: 6px;
+  }
+
+  .card {
+    width: 75px;
+    height: calc(75px / 2 * 3);
+  }
+
+  .front_name {
+    font-size: 11px;
+  }
+
+  .back_name {
+    font-size: 10px;
+  }
+
+  .back-image {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
 
 

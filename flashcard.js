@@ -71,7 +71,7 @@ function suffle(){
   
   
   if(cards[value] === undefined) {
-    alert("Oops! You need to load the cards first.");
+    alert("Oops! You need to load the cards first.🤨");
     return;
   }
   

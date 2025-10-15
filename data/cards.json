@@ -57,39 +57,39 @@
         "portuguese":"galinha"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/cat.png",
+        "english": "cat",
+        "portuguese":"gato"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/dog.png",
+        "english": "dog",
+        "portuguese":"cachorro"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/jellyfish.png",
+        "english": "jellyfish",
+        "portuguese":"água viva"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/lion.png",
+        "english": "lion",
+        "portuguese":"leão"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/parrot.png",
+        "english": "parrot",
+        "portuguese":"papagaio"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/turtle.png",
+        "english": "turtle",
+        "portuguese":"tartaruga"
     },
     {
-        "image": "../assets/black-cat-salem.gif",
-        "english": "🚧",
-        "portuguese":"🚧"
+        "image": "../assets/whale.png",
+        "english": "whale",
+        "portuguese":"baleia"
     }
 ]
 }
