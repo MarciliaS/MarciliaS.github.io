@@ -125,7 +125,7 @@ p{
 }
 .back_name{
     color: black;
-    font-size: 15px;
+    font-size: 1em;
 }
 .front_name{
     color: black;
@@ -161,6 +161,10 @@ p{
     height: calc(120px / 2 * 3);
     margin: 0;
   }
+
+  .back_name{
+    font-size: 0.7em;
+}
 }
 
 /* Medium screens (below 768px) */
@@ -182,7 +186,7 @@ p{
   }
 
   .back_name {
-    font-size: 12px;
+    font-size: 0.7em;
   }
 
   .back-image {
@@ -208,7 +212,7 @@ p{
   }
 
   .back_name {
-    font-size: 10px;
+    font-size: 0.5em;
   }
 
   .back-image {
