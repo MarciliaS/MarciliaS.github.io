@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.cdnfonts.com/css/grilledcheese-btn');
 
+tml, body {
+  height: 100%;
+  margin: 0;
+}
+
 body{
-    background-image: url('./atividade\ 22.pptx.png');
+    min-height: 100dvh;
+    min-height: 100svh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100svh;
-    margin: 0;
+    /* background image + color */
+    /* background-image: url('./atividade\ 22.pptx.png');
+    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100%;
+    background-position: center;
+    overflow-x: hidden; */
+     background: url('./atividade 22.pptx.png') center / cover no-repeat;
+  background-attachment: fixed; /* optional parallax effect */
+  background-color: #089da4;
 }
 
 h1{
@@ -31,6 +42,8 @@ p{
     font-size: 30px;
     font-weight: bold;
 }
+
+h1, p { margin: 0; padding: 0; }
 .actions{
     display: flex;
     gap: 10px;
@@ -121,6 +134,7 @@ p{
     /* border: 1px solid black; */
     border-radius: 5px;
     padding: 15%;
+    height: 50%;
     background-color: white;
 }
 .back_name{
@@ -159,7 +173,6 @@ p{
   .card {
     width: 120px;
     height: calc(120px / 2 * 3);
-    margin: 0;
   }
 
   .back_name{
@@ -220,6 +233,10 @@ p{
     height: 40px;
   }
 }
+
+
+
+
 
 
 
