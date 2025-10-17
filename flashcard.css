@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.cdnfonts.com/css/grilledcheese-btn');
 
+html, body{
+  height: 100%;
+}
 body{
     min-height: 100dvh;
     min-height: 100svh;
