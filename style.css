@@ -161,7 +161,7 @@ body {
   background: url("./wooden-board-pixel-art-design-free-vector-removebg-preview.png") no-repeat center/contain;
   position: fixed;
   right: 5%;
-  top: 80%;
+  bottom: 0;
 }
 
 h3, h4, p {
@@ -215,7 +215,7 @@ h3, h4, p {
   width: 30vw;
   position: absolute;
   right: 70%;
-  top: 80%;
+  bottom: 0;
 }
 }
 
@@ -235,7 +235,7 @@ h3, h4, p {
   width: 30vw;
   position: absolute;
   right: 70%;
-  top: 80%;
+  bottom: 0;
 }
 
 h3, h4, p {
