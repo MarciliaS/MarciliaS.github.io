@@ -159,13 +159,17 @@ body {
 }
 
 .back_sign {
-  display: inline-block;
+  display: block;
   width: 200px;
   height: 180px;
   background: url("./wooden-board-pixel-art-design-free-vector-removebg-preview.png") no-repeat center/contain;
   position: fixed;
+  margin: 0;
   right: 5%;
   bottom: 0;
+  border: none;
+  padding: 0;
+  object-fit: cover;
 }
 
 h3, h4, p {
@@ -225,7 +229,7 @@ h3, h4, p {
 
 
 @media (max-width: 480px) {
-  .title{
+.title{
     font-size: 2rem;
     /* background-color: #1c1c4d; */
     height: 40vh;
@@ -235,7 +239,7 @@ h3, h4, p {
     margin-bottom: 5px;
   }
 
-  .back_sign {
+.back_sign {
   width: 30vw;
   position: absolute;
   right: 70%;
